@@ -14,10 +14,21 @@
 .top .society-facebook{
     border-right: 1px solid rgb(183, 181, 181) ;
     padding-right: 7px;
-    color: rgb(54, 117, 226);
+    
 }
-.top .society-twitter{
+.top .society-facebook a{
+    color: rgb(54, 117, 226);
+    text-decoration: none;
+}
+.top .society-facebook a:hover{
+    border-bottom: 1px solid rgb(54, 117, 226);;
+}
+.top .society-twitter a{
     color: rgb(81, 172, 225);
+    text-decoration: none;
+}
+.top .society-twitter a:hover{
+    border-bottom: 1px solid rgb(81, 172, 225);
 }
 .header{
     background: white;
@@ -25,23 +36,21 @@
     display: flex;
     width:100%;
     align-items: center;
+    justify-content: space-between;
     
 }
-.header .img{
-    width: 70%;
-}
 .header .name{
-    width: 9%;
-    text-align: right;
-    margin-right:7px;
-    padding-top:5px;
-    padding-bottom:5px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    
 }
 .header .name a{
     color: rgb(112, 169, 88);
     text-decoration: none;
     font-size: 20px;
-    display: inline-block;
+    display: block;
+    padding:20px;
 }
 .header .name a:hover{
     border-bottom: 2px solid rgb(105,153,16);
@@ -104,17 +113,13 @@
     padding-top:20px;
     padding-left:20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width:100%;
 }
-.footer-img{
-    width:75%;
-    
-}
 .footer-text{
-    width:25%;
     line-height: 1.5;
+    padding-right:40px;
 }
 .footer-text-color{
     color:rgb(241, 112, 133);
