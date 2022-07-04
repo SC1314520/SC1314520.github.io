@@ -58,36 +58,58 @@
 .header .name a:hover{
     border-bottom: 2px solid rgb(105,153,16);
 }
+.buy-banner{
+    width:1000px;
+    margin: 0 auto;
+}
+.buy-banner img{
+    width:100%;
+}
 .menu-all{
     width:1000px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border:1px solid black;
 }
 .menu-select{
     width:130px;
-    border:2px solid black;
-    padding-top:10px;
+    margin-top:10px;
+    margin-bottom:8px;
+    margin-left:20px;
+    padding-top:45px;
 }
 .menu-select li{
     line-height: 1.5;
-    border-bottom:1px solid gray;
-    text-align: center;
 }
-.menu-select .first{
-    border-top:1px solid gray;
-    
-}
-.menu-select li a{
+.menu-select-title{
+    color:rgb(89, 89, 89);
     display: block;
     text-decoration: none;
-    color: #000;
-    
+    font-size:21px;
+    text-align: center;
+    padding-bottom:7px;
+    border-bottom:0.15px solid gray;
 }
-.menu-select li a:hover{
-    background-color: gray;
+
+.menu-select-item a{
+    text-align: center;
+    color:gray;
+    display: block;
+    text-decoration: none;
+    font-size:16px;
+    line-height: 2.15;
+}
+.menu-select-item a:hover{
+    background:rgb(181, 180, 180);
+    color:rgb(0, 225, 255);
+}
+.query{
+    border-bottom: 1px solid gray;
+    font-size:21px;
+    margin-top:14.75px;
+    padding-bottom:9.75px;
+    position: relative;
 }
 .menu{
     width:750px;
@@ -99,13 +121,13 @@
     height:180px;
     margin:10px;
     position: relative;
-    box-shadow:2px 3px 2px gray;;
+    box-shadow:2px 3px 2px gray;
 }
 .shop-button{
     width:140px;
     text-align: center;
     display: block;
-    margin: 3px auto;
+    margin: 5px auto;
 }
 .menu li img{
     width:80%;
