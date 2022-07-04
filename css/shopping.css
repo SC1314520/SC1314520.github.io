@@ -102,7 +102,7 @@
 }
 .menu-select-item a:hover{
     background:rgb(181, 180, 180);
-    color:rgb(0, 225, 255);
+    color:white;
 }
 .query{
     border-bottom: 1px solid gray;
