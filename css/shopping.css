@@ -179,32 +179,32 @@
 }
 .ask h2{
     line-height: 370px;
-    font-size:32px;
+    font-size:26px;
     color:white;
 }
 .ask-table h3{
-    font-size:32px;
+    font-size:26px;
     color:white;
     text-align: center;
-    margin-top:20px;
+    margin-top:25px;
     margin-bottom:20px;
 }
 .ask-table label{
-    font-size:24px;
+    font-size:19px;
     color:white;
     
 }
 .ask-table .text{
-    font-size:21px;
-    padding-top:3px;
-    padding-bottom:3px;
+    font-size:17px;
+    padding-top:3.5px;
+    padding-bottom:3.5px;
     margin-bottom:15px;
-    width:275px;
+    width:286px;
     border:1px solid gray;
 }
 .ask-table .submit{
     width:345px;
-    font-size:24px;
+    font-size:19px;
     margin-top:12px;
 }
 .textarea{
